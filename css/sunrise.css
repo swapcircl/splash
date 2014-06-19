@@ -31,10 +31,8 @@ html {
         url('../img/bg.jpg') no-repeat center center fixed;
     background: 
         url('../img/hand-with-iphone.png') 100% 100% no-repeat,
-        #E2DFCC 
-        linear-gradient(rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)),
-        url('../img/bg.jpg') no-repeat center center fixed;
+        linear-gradient(rgba(0, 0, 0, 0.60),rgba(0, 0, 0, 0.60)),
+        #E2DFCC url('../img/bg.jpg') no-repeat center center fixed;
 
     -webkit-background-size: cover;
     background-size: cover;
