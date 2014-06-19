@@ -263,7 +263,7 @@ body {
 
 @media (max-width: 979px) {
     html {
-        background: #C07B3A url('../img/bg.jpg') 100% 100% no-repeat;
+        background: #C07B3A url('../img/bg.jpg') no-repeat center center fixed;
 
         -webkit-background-size: cover;
         background-size: cover;
