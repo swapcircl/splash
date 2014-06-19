@@ -24,8 +24,17 @@
 html {
     min-height: 100%;
 
-    background: #C07B3A url('../img/bg.jpg') no-repeat center center fixed;
-    background: url('../img/hand-with-iphone.png') 100% 100% no-repeat, #C07B3A url('../img/bg.jpg') 100% 100% no-repeat;
+    background: 
+        #E2DFCC 
+        linear-gradient(rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)),
+        url('../img/bg.jpg') no-repeat center center fixed;
+    background: 
+        url('../img/hand-with-iphone.png') 100% 100% no-repeat,
+        #E2DFCC 
+        linear-gradient(rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)),
+        url('../img/bg.jpg') no-repeat center center fixed;
 
     -webkit-background-size: cover;
     background-size: cover;
@@ -263,7 +272,10 @@ body {
 
 @media (max-width: 979px) {
     html {
-        background: #C07B3A url('../img/bg.jpg') no-repeat center center fixed;
+        background: #E2DFCC 
+        linear-gradient(rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)),
+        url('../img/bg.jpg') no-repeat center center fixed;
 
         -webkit-background-size: cover;
         background-size: cover;
