@@ -26,8 +26,8 @@ html {
 
     background: 
         #E2DFCC 
-        linear-gradient(rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)),
+        linear-gradient(rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)),
         url('../img/bg.jpg') no-repeat center center fixed;
     background: 
         url('../img/hand-with-iphone.png') 100% 100% no-repeat,
@@ -54,21 +54,29 @@ body {
 
 .page-heading {
     margin-top: 100px;
-    margin-bottom: 30px;
-
+    margin-bottom: 8px;
+    padding:10px 20px;
+    background: rgba(0,0,0,0.2);
     font-size: 64px;
     line-height: 64px;
+    display:table;
     font-weight: bold;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.slogan {
+margin:0px;
+padding:10px 20px;
+background: rgba(0,0,0,0.2);
+display:table;
+}
 
 /*
     Description
 =================================================================*/
 
 .description {
-    margin-bottom: 40px;
+    margin-bottom: 8px;
 }
 
 
@@ -271,8 +279,8 @@ body {
 @media (max-width: 979px) {
     html {
         background: #E2DFCC 
-        linear-gradient(rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)),
+        linear-gradient(rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)),
         url('../img/bg.jpg') no-repeat center center fixed;
 
         -webkit-background-size: cover;
